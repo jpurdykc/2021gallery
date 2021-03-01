@@ -8,7 +8,25 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="style2.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<script src="main.js"></script>
+<script>
+var mobileMenuBtn = 
+    document.querySelector("#mobile-menu-btn");
+var mobileMenu = 
+    document.querySelector(".mobile-menu");
+    
+mobileMenuBtn.addEventListener("click", () 
+=> {
+  if (mobileMenu.style.display === "none") 
+{
+    mobileMenu.style.display = "flex";
+    mobileMenuBtn.innerHTML = "Close";
+} else {
+    mobileMenu.style.display = "none";
+    mobileMenuBtn.innerHTML = "Menu";
+  }
+});
+    </script>
+<script src="main.js" defer></script>
 </head>
 
 <body style= background-color:#f4f3f1>
@@ -17,22 +35,19 @@
 <!-- Large Screen Navigation Bar -->
     <nav>
       <div class="logo">
-        Logo
+        Student Art Show
       </div>
       <div class="links">
-        <p>Login</p>
-        <p>Signup</p>
-        <p>About Us</p>
-        <p>Contact</p>
+        <p>About</p>
+        <p>Classes</p>
         <strong id="mobile-menu-btn">Menu</strong>
       </div>
     </nav>
     <!-- Small Screen Navigation Bar -->
     <div class="mobile-menu">
-      <p>Login</p>
-      <p>Signup</p>
-      <p>About Us</p>
-      <p>Contact</p>
+      <p>About</p>
+      <p>Classes</p>
+
     </div>
  
     
