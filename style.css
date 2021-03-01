@@ -1,7 +1,8 @@
 
 .title {
     float: left;
-    display: block; 
+    display: block;
+    margin-right: 768px;
 }
 
 h1 {
