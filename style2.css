@@ -47,3 +47,10 @@ nav .links {
     align-items: center;
   }
 }
+* {
+  padding: 2px;
+  margin: 0px;
+  transition: 0.5 s;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+}
