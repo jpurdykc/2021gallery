@@ -9,4 +9,4 @@ mobileMenuBtn.addEventListener("click", () => {
     mobileMenu.style.display = "none";
     mobileMenuBtn.innerHTML = "Menu";
   }
-});
+})
