@@ -85,3 +85,20 @@ nav .links {
     text-align: left;
   }
 }
+
+.logo {
+    width: 220px;
+    padding-top: 10px;
+    
+}
+
+.test2 {
+    width: 33vw;
+    padding: 33vw;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 2px;
+}
