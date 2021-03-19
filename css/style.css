@@ -92,18 +92,34 @@ nav .links {
     
 }
 
-.test2 {
-    width: 33vw;
-    padding: 33vw;
-    padding-top: 10vw;
-    padding-bottom: 10vw;
-}
+
 table {
     border-collapse: separate;
-    border-spacing: 2px;
+    border-spacing: 200px;
 }
 
 h1 {
-    text-align: center;
+   text-align: center;
 }
-]
+
+html, body
+{
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+imageHolder {
+    position:relative;
+    height: 100%;
+    width:100%;
+}
+
+imageHolder img {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
