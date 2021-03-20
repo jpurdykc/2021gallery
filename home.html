@@ -9,7 +9,7 @@
 <script src="js/lightbox-plus-jquery.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<script src="/main.js" defer></script>
+<script src="js/main.js" defer></script>
         <style>
             
         body {
@@ -31,11 +31,12 @@
 
 <body style= background-color:#f4f3f1>
 
+    <button onclick="topFunction()" id="backtotop" title="Go to top">Top</button> 
 
 <!-- Large Screen Navigation Bar -->
     <nav>
-      <div class="logo">
-        <img src="img/logo.jpg" class="logo">
+      <div>
+        <img src="img/logo.jpg" id="logo">
       </div>
       <div class="links">
           <p>Categories</p>
@@ -50,8 +51,28 @@
 
     </div>
     
-<div class="imageContainer"><img src="http://placehold.it/350x150"></div>
+<div class="container">
+  <div class="box">
+    <a class="example-image-link" href="img/1.jpg" data-lightbox="img1" data-title="Captions"><img class="example-image" src="img/1.jpg" alt="image-1"/></a>
+    </div>
+    </div>
+    
+  
+<div class="container">
+  <div class="box">
+    <a class="example-image-link" href="img/1.jpg" data-lightbox="img2" data-title="Captions"><img class="example-image" src="img/1.jpg" alt="image-2"/></a>
+    </div>
+    </div>
+    
+<div class="container">
+  <div class="box">
+    <a class="example-image-link" href="img/1.jpg" data-lightbox="img3" data-title="Captions"><img class="example-image" src="img/1.jpg" alt="image-3"/></a>
+    </div>
+    </div>
+   
+    
     
 </body>
+
 
 </html>

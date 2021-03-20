@@ -12,10 +12,13 @@ nav {
   padding: 0px 30px;
   background-color: #6E8878;
   color: white;
-  height: 8vh;
+  height: 10vh;
+  z-index: 99;
+
 }
 nav .links {
   display: flex;
+
 }
 .links p {
   padding: 0px 40px 0px 40px;
@@ -32,6 +35,7 @@ nav .links {
   height: 20vh;
   width: 50vw;
   background-color: #6E8878;
+  z-index: 99;
 }
 
 @media (max-width: 600px) {
@@ -47,14 +51,6 @@ nav .links {
     justify-content: space-around;
     align-items: center;
   }
-
-* {
-  padding: 2px;
-  margin: 0px;
-  transition: 0.5 s;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 20px;
-}
 }
 
 
@@ -86,16 +82,10 @@ nav .links {
   }
 }
 
-.logo {
+logo {
     width: 220px;
     padding-top: 10px;
     
-}
-
-
-table {
-    border-collapse: separate;
-    border-spacing: 200px;
 }
 
 h1 {
@@ -109,17 +99,35 @@ html, body
     padding:0;
 }
 
-imageHolder {
-    position:relative;
-    height: 100%;
-    width:100%;
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 10vh;
+    position: relative;
+    z-index: 1;
 }
 
-imageHolder img {
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    margin:auto;
+img {
+  width: 100%;
+  height: auto;
+}
+
+#backtotop {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #6E8878; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#backtotop:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
 }
