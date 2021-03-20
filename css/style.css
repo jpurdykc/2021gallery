@@ -82,10 +82,8 @@ nav .links {
   }
 }
 
-logo {
-    width: 220px;
-    padding-top: 10px;
-    
+.logo {
+    width: 200px;
 }
 
 h1 {
@@ -107,7 +105,7 @@ html, body
     z-index: 1;
 }
 
-img {
+.example-image {
   width: 100%;
   height: auto;
 }
@@ -131,3 +129,5 @@ img {
 #backtotop:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
+
+
