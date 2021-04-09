@@ -121,6 +121,13 @@ html, body
   height: auto;
 }
 
+@media screen and (max-width: 600px) {
+    .example-image {
+        width:300px;
+        height: auto;
+    }
+}
+
 #backtotop {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
