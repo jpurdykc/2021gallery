@@ -159,3 +159,26 @@ margin: auto;
 align-content: center;
 }
 
+footer {
+  text-align: left;
+  padding: 3px;
+  background-color: #2B2D2F;
+  color: white;
+  display: block;
+  width: 100vw;
+    position: absolute;
+}
+
+.left { 
+    float: left;
+  }
+
+.right {
+    float: right;
+
+}
+
+.rightleft {
+    display: flex;
+}
+
