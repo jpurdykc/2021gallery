@@ -97,6 +97,10 @@ a h2 {
    color: black;
 }
 
+h3 {
+    font-size: 18px;
+}
+
 html, body
 {
     height: 100%;

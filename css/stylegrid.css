@@ -82,6 +82,8 @@
 .ri-grid-size-3{
 	width: 100%;
 	margin-top: 0px;
+    margin-left: -3px;
+    margin-right: -3px;
 }
 
 /* Shadow style */
